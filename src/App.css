@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-section {
+  height: 100vh; /* or use fixed height like 600px */
+  color: white;
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start; /* pushes content to top */
+  border-radius: 0 0 12px 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome-text {
+  margin-top: 120px; /* space between navbar and text */
+  max-width: 600px;
+  /* font-weight: 500; */
+  /* margin-bottom: 300px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome-text h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.welcome-text p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.start-now {
+  background-color: white;
+  /* color: ; */
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-now:hover {
+  box-shadow: 3px 3px 3px 3px white;
+  transition: 0.3;
+}
+
+.world-beauty {
+  background-color: #f9f9f9;
+  padding: 60px 30px;
+  color: #333;
+}
+.world-beauty h1 {
+  font-weight: 500;
+  
 }

@@ -1,0 +1,28 @@
+.cardContainer {
+    width: 40%;
+    /* height: 35vh; */
+    /* border: 1px solid blacks; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* This pushes the text to the bottom */
+    position: relative; 
+    /* align-items: center; */
+}
+.cardPlaceName {
+    position: absolute;
+    color: white;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* padding-right: 1200px; */
+  background-color: rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+    /* top: 0; */
+    /* margin: 0; */
+    /* left: 20px; */
+    border-radius: 15px;
+
+}
