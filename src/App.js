@@ -16,7 +16,7 @@ function App() {
     { name: 'Vahagn Gasparyan', role: 'Team lead. Full Stack, ML Engineer', image: levonNazinyan },
     { name: 'Levon Nazinyan', role: 'UI Designer', image: vahagnGasparyan },
     { name: 'Gagik Martirosyan', role: 'Designer', image: vargdesZaqaryan },
-    { name: 'Gagik Martirosyan', role: 'Back-End, ML Engineer', image: gagikMartirosyan },
+    { name: 'Vardges Zaqaryan', role: 'Back-End, ML Engineer', image: gagikMartirosyan },
   ];
 
   return (
